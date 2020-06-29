@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 /*-----pages-----*/
+/*running from workspace*/
 import {Home} from './Home';
 
 class App extends Component{
