@@ -121,7 +121,7 @@ const tsinatData = {
             {
               id: 1,
               icon: 'icon_pin_alt',
-              text: 'San Francisco Bay Area',
+              text: 'Washington DC Area' ,
             },
             {
               id: 2,
