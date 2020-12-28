@@ -104,7 +104,7 @@ class ItemGrid extends Component {
                 </div>
                 <div className="col-md-4 col-sm-6 col-xs-12 grid-item  web">
                     <div className="portfolio hover-style">
-                        <img src={require('../../image/eristars.png')} alt=""/>
+                        <img src={require('../../image/eristars2.png')} alt=""/>
                         <div className="item-img-overlay">
                             <div className="overlay-info text-center">
                                 <h6 className="sm-titl">WEB DESIGN</h6>
@@ -115,19 +115,19 @@ class ItemGrid extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 col-sm-6 col-xs-12 grid-item develop">
-                    <div className="portfolio hover-style">
-                        <img src={require('../../image/profile.png')} alt=""/>
-                        <div className="item-img-overlay">
-                            <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
-                                <div className="icons">
-                                    <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {/*<div className="col-md-4 col-sm-6 col-xs-12 grid-item develop">*/}
+                {/*    <div className="portfolio hover-style">*/}
+                {/*        <img src={require('../../image/profile.png')} alt=""/>*/}
+                {/*        <div className="item-img-overlay">*/}
+                {/*            <div className="overlay-info text-center">*/}
+                {/*                <h6 className="sm-titl">WEB DESIGN</h6>*/}
+                {/*                <div className="icons">*/}
+                {/*                    <a href=".#"><i className="icon-magnifying-glass"></i></a>*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
             </div>
             </div>
         )

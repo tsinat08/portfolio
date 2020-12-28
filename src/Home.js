@@ -18,7 +18,7 @@ export const Home = () => (
         <About aClass="about_area" tsinatData={tsinatData}/>
         <Service wClass="work_area" tsinatData={tsinatData}/>
         <Portfolio/>
-        <Testimonial/>
+        {/*<Testimonial/>*/}
         <Contact tsinatData={tsinatData}/>
         <Footer tsinatData={tsinatData}/>
     </div>

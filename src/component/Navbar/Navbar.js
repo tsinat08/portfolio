@@ -39,11 +39,11 @@ class Navbar extends Component{
                                         Portfolio
                                     </Link>
                                 </li>
-                                <li className="nav-item">
-                                    <Link className="nav-link" activeClass="active" to="testimonial" spy={true} smooth={true} offset={-86} duration={500}>
-                                        Testimonial
-                                    </Link>
-                                </li>
+                                {/*<li className="nav-item">*/}
+                                {/*    <Link className="nav-link" activeClass="active" to="testimonial" spy={true} smooth={true} offset={-86} duration={500}>*/}
+                                {/*        Testimonial*/}
+                                {/*    </Link>*/}
+                                {/*</li>*/}
                                 <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="contact" spy={true} smooth={true} offset={-86} duration={500}>
                                         Contact
