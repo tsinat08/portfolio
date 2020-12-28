@@ -4,7 +4,7 @@ import RBanner from './component/Banner/RippleBanner';
 import About from './component/About';
 import Service from './component/Service';
 import Portfolio from './component/Portfolio/Portfolio';
-import Testimonial from './component/Testimonial/Testimonial';
+// import Testimonial from './component/Testimonial/Testimonial';
 import Contact from './component/Contact';
 import Footer from './component/Footer';
 import tsinatData from './component/tsinatData';
