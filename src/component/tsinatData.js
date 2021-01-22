@@ -128,6 +128,7 @@ const tsinatData = {
               icon: 'icon_mail',
               text: 'Email: tsinat.weldetnesae@gmail.com',
             }
+
           ]
         },
       ],
