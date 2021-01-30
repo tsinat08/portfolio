@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import {Fade, Reveal} from 'react-reveal/';
 
+
+
 class About extends Component {
     render(){
         let tsinatData = this.props.tsinatData;
@@ -16,8 +18,8 @@ class About extends Component {
                                     <h2 className="t_color">{tsinatData.aboutme}</h2>
                                     <h6>{tsinatData.role}</h6>
                                     <p>{tsinatData.aboutdetails}</p>
-                                    <Link to="/"  className="theme_btn active">Hire Me</Link>
-                                    <Link to="/" className="theme_btn">Download CV</Link>
+                                    <a href='https://www.linkedin.com/in/tsinat-w/' className="theme_btn active">Hire Me</a>
+                                    <a href='https://drive.google.com/file/d/1CgH4700WkZSVsI4kH7XWrfU7Cypeaq9v/view' className="theme_btn">Download CV</a>
                                 </div>
                             </Fade>
                         </div>
