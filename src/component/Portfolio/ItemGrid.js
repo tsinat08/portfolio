@@ -49,13 +49,56 @@ class ItemGrid extends Component {
             {/*    <li className={`${this.onActive(`market`)}`} data-wow-delay="0.8s" data-filter="market" onClick={()=> {this.onFilterChange("market")}}>Marketing</li>*/}
             {/*</ul>	*/}
 
+
             <div className="grid row">
+                <div className="col-md-4 col-sm-6 col-xs-12 grid-item  web">
+                    <div className="portfolio hover-style">
+                        <img src={require('../../image/PaintedRed.png')} alt=""/>
+                        <div className="item-img-overlay">
+                            <div className="overlay-info text-center">
+                                <h6 className="sm-titl">NextJs/Woocommerce/Node <br/> AWS/GraphQl/Stripe</h6>
+                                <div className="icons">
+                                    <a href="https://www.eristarsportsclub.com/" target='_blank'><i className="icon-magnifying-glass"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-4 col-sm-6 col-xs-12 grid-item  web">
+                    <div className="portfolio hover-style">
+                        <img src={require('../../image/eristars2.png')} alt=""/>
+                        <div className="item-img-overlay">
+                            <div className="overlay-info text-center">
+                                <h6 className="sm-titl">WordPress/PHP/Js</h6>
+                                <div className="icons">
+                                    <a href="https://www.eristarsportsclub.com/" target='_blank'><i className="icon-magnifying-glass"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-md-4 col-sm-6 col-xs-12 grid-item market develop">
+                    <div className="portfolio hover-style">
+                        <img src={require('../../image/movies.jpg')} alt=""/>
+                        <div className="item-img-overlay">
+                            <div className="overlay-info text-center">
+                                <h6 className="sm-titl">React/Express/Node/AWS</h6>
+                                <div className="icons">
+                                    <a href=".#"><i className="icon-magnifying-glass"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="col-md-4 col-sm-6 col-xs-12 grid-item tech develop">
                     <div className="portfolio hover-style">
                         <img src={require('../../image/jamming.jpg')} alt=""/>
                         <div className="item-img-overlay">
                             <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
+                                <h6 className="sm-titl">React/Express/Node/AWS</h6>
                                 <div className="icons">
                                     <a href=".#"><i className="icon-magnifying-glass"></i></a>
                                 </div>
@@ -63,12 +106,13 @@ class ItemGrid extends Component {
                         </div>						
                     </div>
                 </div>
+
                 <div className="col-md-4 col-sm-6 col-xs-12 grid-item market web develop">
                     <div className="portfolio hover-style">
                     <img src={require('../../image/food.jpg')} alt=""/>
                         <div className="item-img-overlay">
                             <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
+                                <h6 className="sm-titl">React/Express/Node/AWS</h6>
                                 <div className="icons">
                                     <a href=".#"><i className="icon-magnifying-glass"></i></a>
                                 </div>
@@ -76,45 +120,22 @@ class ItemGrid extends Component {
                         </div>
                     </div>						
                 </div>
-                <div className="col-md-4 col-sm-6 col-xs-12 grid-item market develop">
-                    <div className="portfolio hover-style">
-                    <img src={require('../../image/movies.jpg')} alt=""/>
-                        <div className="item-img-overlay">
-                            <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
-                                <div className="icons">
-                                    <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+
                 <div className="col-md-4 col-sm-6 col-xs-12 grid-item web">
                     <div className="portfolio hover-style">
                         <img src={require('../../image/calculator.png')} alt=""/>
                         <div className="item-img-overlay">
                             <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
+                                <h6 className="sm-titl">React/Express/Node/AWS</h6>
                                 <div className="icons">
-                                    <a href="http://calculator.us-west-1.elasticbeanstalk.com/"><i className="icon-magnifying-glass"></i></a>
+                                    <a href="http://calculator.us-west-1.elasticbeanstalk.com/" target='_blank'><i className="icon-magnifying-glass"></i></a>
                                 </div>
                             </div>
                         </div>	
                     </div>
                 </div>
-                <div className="col-md-4 col-sm-6 col-xs-12 grid-item  web">
-                    <div className="portfolio hover-style">
-                        <img src={require('../../image/eristars2.png')} alt=""/>
-                        <div className="item-img-overlay">
-                            <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WEB DESIGN</h6>
-                                <div className="icons">
-                                    <a href=".#"><i className="icon-magnifying-glass"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
                 {/*<div className="col-md-4 col-sm-6 col-xs-12 grid-item develop">*/}
                 {/*    <div className="portfolio hover-style">*/}
                 {/*        <img src={require('../../image/profile.png')} alt=""/>*/}

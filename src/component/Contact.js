@@ -22,11 +22,17 @@ class Contact extends Component {
                                                                 return(
                                                                     <li className="item" key={info.id}>
                                                                         <div className="media">
-                                                                            <a href="/#">
-                                                                                <i className={info.icon}></i>
-                                                                            </a>
+                                                                            {info.name === 'email' ?
+                                                                                <a href={`mailto:${info.text}`}>
+                                                                                    <i className={info.icon}></i>
+                                                                                </a> : <i className={info.icon}></i>
+                                                                            }
                                                                             <div className="media-body">
-                                                                                <a href="/#">{info.text}</a> 
+                                                                                {info.name==='email' ?
+                                                                                    <a href={`mailto:${info.text}`}>
+                                                                                        {info.text}
+                                                                                    </a> : info.text
+                                                                                }
                                                                             </div>
                                                                         </div>
                                                                     </li>

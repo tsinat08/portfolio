@@ -121,12 +121,14 @@ const tsinatData = {
             {
               id: 1,
               icon: 'icon_pin_alt',
+              name: 'location',
               text: 'Washington DC Area' ,
             },
             {
               id: 2,
               icon: 'icon_mail',
-              text: 'Email: tsinat.weldetnesae@gmail.com',
+              name: 'email',
+              text: 'tsinat.weldetnesae@gmail.com',
             }
 
           ]
