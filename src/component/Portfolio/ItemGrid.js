@@ -58,7 +58,7 @@ class ItemGrid extends Component {
                             <div className="overlay-info text-center">
                                 <h6 className="sm-titl">NextJs/Woocommerce/Node <br/> AWS/GraphQl/Stripe</h6>
                                 <div className="icons">
-                                    <a href="https://www.eristarsportsclub.com/" target='_blank'><i className="icon-magnifying-glass"></i></a>
+                                    <a href="https://www.eristarsportsclub.com/" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ class ItemGrid extends Component {
                             <div className="overlay-info text-center">
                                 <h6 className="sm-titl">WordPress/PHP/Js</h6>
                                 <div className="icons">
-                                    <a href="https://www.eristarsportsclub.com/" target='_blank'><i className="icon-magnifying-glass"></i></a>
+                                    <a href="https://www.eristarsportsclub.com/" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -129,7 +129,7 @@ class ItemGrid extends Component {
                             <div className="overlay-info text-center">
                                 <h6 className="sm-titl">React/Express/Node/AWS</h6>
                                 <div className="icons">
-                                    <a href="http://calculator.us-west-1.elasticbeanstalk.com/" target='_blank'><i className="icon-magnifying-glass"></i></a>
+                                    <a href="http://calculator.us-west-1.elasticbeanstalk.com/" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"></i></a>
                                 </div>
                             </div>
                         </div>	
