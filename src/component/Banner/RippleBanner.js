@@ -26,7 +26,7 @@ class Banner extends Component {
                                         tsinatData.socialLinks && tsinatData.socialLinks.map(item =>{
                                         return(
                                                 <li key={item.name}>
-                                                <a  href={item.url}><i className={item.className}></i></a> 
+                                                <a  href={item.url} target='_blank' rel="noopener noreferrer"><i className={item.className}></i></a>
                                                 </li>
                                                 )
                                             }

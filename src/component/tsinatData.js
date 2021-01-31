@@ -6,7 +6,7 @@ const tsinatData = {
     "ptext": "Talented Developer located in the bay area.",
     "socialLinks":[
         {
-            "name":"twitter",
+            "name":"Github",
             "url":"https://github.com/tsinat08",
             "className":"fa fa-github"
         },

@@ -18,7 +18,7 @@ class About extends Component {
                                     <h2 className="t_color">{tsinatData.aboutme}</h2>
                                     <h6>{tsinatData.role}</h6>
                                     <p>{tsinatData.aboutdetails}</p>
-                                    <a href='https://www.linkedin.com/in/tsinat-w/' className="theme_btn active">Hire Me</a>
+                                    <a href='https://www.linkedin.com/in/tsinat-w/' className="theme_btn active" target='_blank' rel="noopener noreferrer">Hire Me</a>
                                     <a href='/resume.pdf' className="theme_btn" download>Download CV</a>
                                 </div>
                             </Fade>
