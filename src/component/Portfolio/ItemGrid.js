@@ -58,7 +58,7 @@ class ItemGrid extends Component {
                             <div className="overlay-info text-center">
                                 <h6 className="sm-titl">NextJs/Woocommerce/Node <br/> AWS/GraphQl/Stripe</h6>
                                 <div className="icons">
-                                    <a href="http://painted-red-dev.us-west-1.elasticbeanstalk.com/" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"></i></a>
+                                    <a href="https://www.getpaintedred.com/" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
                                 </div>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ class ItemGrid extends Component {
                             <div className="overlay-info text-center">
                                 <h6 className="sm-titl">WordPress/PHP/Js</h6>
                                 <div className="icons">
-                                    <a href="https://www.eristarsportsclub.com/" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"></i></a>
+                                    <a href="https://www.eristarsportsclub.com/" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
                                 </div>
                             </div>
                         </div>
@@ -86,7 +86,8 @@ class ItemGrid extends Component {
                             <div className="overlay-info text-center">
                                 <h6 className="sm-titl">React/Express/Node/AWS</h6>
                                 <div className="icons">
-                                    <a href="https://github.com/tsinat08/Movie" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"></i></a>
+                                    <a href="http://movies.tsinatcodes.com" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
+                                    <a href="https://github.com/tsinat08/Movie" target='_blank' rel="noopener noreferrer"><i className="fa fa-github"/></a>
                                 </div>
                             </div>
                         </div>
@@ -100,7 +101,8 @@ class ItemGrid extends Component {
                             <div className="overlay-info text-center">
                                 <h6 className="sm-titl">React/Express/Node/AWS</h6>
                                 <div className="icons">
-                                    <a href="https://github.com/tsinat08/jammming" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"></i></a>
+                                    <a href="http://jamming.tsinatcodes.com" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
+                                    <a href="https://github.com/tsinat08/jammming" target='_blank' rel="noopener noreferrer"><i className="fa fa-github"/></a>
                                 </div>
                             </div>
                         </div>						
@@ -114,7 +116,8 @@ class ItemGrid extends Component {
                             <div className="overlay-info text-center">
                                 <h6 className="sm-titl">React/Express/Node/AWS</h6>
                                 <div className="icons">
-                                    <a href="https://github.com/tsinat08/Restaurant" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"></i></a>
+                                    <a href="http://restaurant.tsinatcodes.com" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
+                                    <a href="https://github.com/tsinat08/Restaurant" target='_blank' rel="noopener noreferrer"><i className="fa fa-github"/></a>
                                 </div>
                             </div>
                         </div>
@@ -129,7 +132,8 @@ class ItemGrid extends Component {
                             <div className="overlay-info text-center">
                                 <h6 className="sm-titl">React/Express/Node/AWS</h6>
                                 <div className="icons">
-                                    <a href="https://github.com/tsinat08/calculator" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"></i></a>
+                                    <a href="http://calculator.tsinatcodes.com" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
+                                    <a href="https://github.com/tsinat08/calculator" target='_blank' rel="noopener noreferrer"><i className="fa fa-github"/></a>
                                 </div>
                             </div>
                         </div>	
