@@ -3,6 +3,10 @@ import ItemGrid from './ItemGrid';
 import Sectiontitle from '../../component/Banner/Sectiontitle';
 
 class portfolio extends Component {
+
+    componentDidMount() {
+    }
+
     render() {
       var {pClass}= this.props;
       return(

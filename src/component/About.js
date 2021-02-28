@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 // import {Link} from 'react-router-dom';
-import {Fade, Reveal} from 'react-reveal/';
+import {Fade} from 'react-reveal/';
 
 
 
@@ -12,7 +12,7 @@ class About extends Component {
             <section className={`${aClass}`} id="about">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-7 d-flex align-items-center">
+                        <div className="col-lg-6 d-flex align-items-center">
                             <Fade bottom cascade duration={1000}>
                                 <div className="about_content">
                                     <h2 className="t_color">{tsinatData.aboutme}</h2>
@@ -23,9 +23,28 @@ class About extends Component {
                                 </div>
                             </Fade>
                         </div>
-                        <div className="col-lg-5">
-                            <div className="about_img">
-                                <Reveal effect="fadeInRight" duration={1500}><img src={require('../image/tsinat.jpg')} alt=""/></Reveal>
+                        <div className="col-lg-6">
+                            <div id="myCanvasContainer">
+                                <canvas width="600" height="600" id="myCanvas">
+                                    <p>Anything in here will be replaced on browsers that support the canvas element</p>
+                                </canvas>
+                            </div>
+                            <div id="tags">
+                                <ul>
+                                    {
+                                        tsinatData.service && tsinatData.service.map(item =>{
+                                                return(
+                                                    <li key={item.id}>
+                                                        <div className={`work_item wow fadeInUp ${item.className}`} data-wow-delay="0.1s">
+                                                            <img src={require(`../image/${item.iconName}`)} alt={item.serviceTitle}/>
+                                                            <h2 className="t_color">{item.serviceTitle}</h2>
+                                                        </div>
+                                                    </li>
+                                                )
+                                            }
+                                        )
+                                    }
+                                </ul>
                             </div>
                         </div>
                     </div>

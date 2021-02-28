@@ -6,8 +6,87 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@font-face {
+  font-family: 'vollkorn';
+  src: local('MyFont'), url(./fonts/VollkornBlack-gx2EE.otf) format('otf');
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
   monospace;
+}
+
+
+.navbar-brand.logo_h {
+  width: 60px;
+  height: 80px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+}
+
+.navbar-brand-first-letter, .navbar-brand-second-letter  {
+  color: #CE1307;
+  font-family: 'vollkorn', 'serif';
+  font-size: 25px;
+  font-weight: 900;
+  text-shadow: -1px 0 #000;
+}
+.reverse .navbar-brand-first-letter, .reverse .navbar-brand-second-letter {
+  color: #fff;
+}
+
+.navbar-brand-first-letter {
+  position: absolute;
+  top: 23px;
+  left: 15px;
+  z-index: 9999;
+}
+
+.navbar-brand-second-letter {
+  position: absolute;
+  top: 28px;
+  left: 20px;
+  z-index: 9998;
+}
+
+.logo_h.initial {
+  display: inline-block;
+}
+.navbar_fixed .logo_h.initial {
+  display: none;
+}
+.logo_h.reverse {
+  display: none;
+}
+.navbar_fixed .logo_h.reverse {
+  display: inline-block;
+}
+
+section {
+  border-top: 1px solid #FBFB0E;
+  border-bottom: 1px solid #FBFB0E;
+}
+
+@media only screen and (max-width: 700px) {
+  canvas {
+    width: 100%;
+  }
+  .portfolio:hover .item-img-overlay{
+    opacity: 0.7!important;
+  }
+  .snapstack {
+    width: 15rem!important;
+  }
+  .snap {
+    width: 15rem!important;
+    height: 20rem!important;
+  }
+  .snap__caption {
+    font-size: 1.2rem!important;
+  }
+  .portfolio_area {
+    height: 700px!important;
+  }
 }

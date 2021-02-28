@@ -50,110 +50,209 @@ class ItemGrid extends Component {
             {/*</ul>	*/}
 
 
-            <div className="grid row">
-                <div className="col-md-4 col-sm-6 col-xs-12 grid-item  web">
-                    <div className="portfolio hover-style">
-                        <img src={require('../../image/PaintedRed.png')} alt=""/>
-                        <div className="item-img-overlay">
-                            <div className="overlay-info text-center">
-                                <h6 className="sm-titl">NextJs/Woocommerce/Node <br/> AWS/GraphQl/Stripe</h6>
-                                <div className="icons">
-                                    <a href="https://www.getpaintedred.com/" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-md-4 col-sm-6 col-xs-12 grid-item  web">
-                    <div className="portfolio hover-style">
-                        <img src={require('../../image/eristars2.png')} alt=""/>
-                        <div className="item-img-overlay">
-                            <div className="overlay-info text-center">
-                                <h6 className="sm-titl">WordPress/PHP/Js</h6>
-                                <div className="icons">
-                                    <a href="https://www.eristarsportsclub.com/" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-md-4 col-sm-6 col-xs-12 grid-item market develop">
-                    <div className="portfolio hover-style">
-                        <img src={require('../../image/movies.jpg')} alt=""/>
-                        <div className="item-img-overlay">
-                            <div className="overlay-info text-center">
-                                <h6 className="sm-titl">React/Express/Node/AWS</h6>
-                                <div className="icons">
-                                    <a href="http://movies.tsinatcodes.com" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
-                                    <a href="https://github.com/tsinat08/Movie" target='_blank' rel="noopener noreferrer"><i className="fa fa-github"/></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="col-md-4 col-sm-6 col-xs-12 grid-item tech develop">
-                    <div className="portfolio hover-style">
-                        <img src={require('../../image/jamming.jpg')} alt=""/>
-                        <div className="item-img-overlay">
-                            <div className="overlay-info text-center">
-                                <h6 className="sm-titl">React/Express/Node/AWS</h6>
-                                <div className="icons">
-                                    <a href="http://jamming.tsinatcodes.com" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
-                                    <a href="https://github.com/tsinat08/jammming" target='_blank' rel="noopener noreferrer"><i className="fa fa-github"/></a>
-                                </div>
-                            </div>
-                        </div>						
-                    </div>
-                </div>
-
-                <div className="col-md-4 col-sm-6 col-xs-12 grid-item market web develop">
-                    <div className="portfolio hover-style">
-                    <img src={require('../../image/food.jpg')} alt=""/>
-                        <div className="item-img-overlay">
-                            <div className="overlay-info text-center">
-                                <h6 className="sm-titl">React/Express/Node/AWS</h6>
-                                <div className="icons">
-                                    <a href="http://restaurant.tsinatcodes.com" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
-                                    <a href="https://github.com/tsinat08/Restaurant" target='_blank' rel="noopener noreferrer"><i className="fa fa-github"/></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>						
-                </div>
-
-
-                <div className="col-md-4 col-sm-6 col-xs-12 grid-item web">
-                    <div className="portfolio hover-style">
-                        <img src={require('../../image/calculator.png')} alt=""/>
-                        <div className="item-img-overlay">
-                            <div className="overlay-info text-center">
-                                <h6 className="sm-titl">React/Express/Node/AWS</h6>
-                                <div className="icons">
-                                    <a href="http://calculator.tsinatcodes.com" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
-                                    <a href="https://github.com/tsinat08/calculator" target='_blank' rel="noopener noreferrer"><i className="fa fa-github"/></a>
-                                </div>
-                            </div>
-                        </div>	
-                    </div>
-                </div>
-
-                {/*<div className="col-md-4 col-sm-6 col-xs-12 grid-item develop">*/}
-                {/*    <div className="portfolio hover-style">*/}
-                {/*        <img src={require('../../image/profile.png')} alt=""/>*/}
-                {/*        <div className="item-img-overlay">*/}
-                {/*            <div className="overlay-info text-center">*/}
-                {/*                <h6 className="sm-titl">WEB DESIGN</h6>*/}
-                {/*                <div className="icons">*/}
-                {/*                    <a href=".#"><i className="icon-magnifying-glass"></i></a>*/}
+                {/*<div className="grid row">*/}
+                {/*    <div className="col-md-4 col-sm-6 col-xs-12 grid-item  web">*/}
+                {/*        <div className="portfolio hover-style">*/}
+                {/*            <img src={require('../../image/PaintedRed.png')} alt=""/>*/}
+                {/*            <div className="item-img-overlay">*/}
+                {/*                <div className="overlay-info text-center">*/}
+                {/*                    <h6 className="sm-titl">NextJs/Woocommerce/Node <br/> AWS/GraphQl/Stripe</h6>*/}
+                {/*                    <div className="icons">*/}
+                {/*                        <a href="https://www.getpaintedred.com/" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>*/}
+                {/*                    </div>*/}
                 {/*                </div>*/}
                 {/*            </div>*/}
                 {/*        </div>*/}
                 {/*    </div>*/}
+
+                {/*    <div className="col-md-4 col-sm-6 col-xs-12 grid-item  web">*/}
+                {/*        <div className="portfolio hover-style">*/}
+                {/*            <img src={require('../../image/eristars2.png')} alt=""/>*/}
+                {/*            <div className="item-img-overlay">*/}
+                {/*                <div className="overlay-info text-center">*/}
+                {/*                    <h6 className="sm-titl">WordPress/PHP/Js</h6>*/}
+                {/*                    <div className="icons">*/}
+                {/*                        <a href="https://www.eristarsportsclub.com/" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+
+                {/*    <div className="col-md-4 col-sm-6 col-xs-12 grid-item market develop">*/}
+                {/*        <div className="portfolio hover-style">*/}
+                {/*            <img src={require('../../image/movies.jpg')} alt=""/>*/}
+                {/*            <div className="item-img-overlay">*/}
+                {/*                <div className="overlay-info text-center">*/}
+                {/*                    <h6 className="sm-titl">React/Express/Node/AWS</h6>*/}
+                {/*                    <div className="icons">*/}
+                {/*                        <a href="http://movies.tsinatcodes.com" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>*/}
+                {/*                        <a href="https://github.com/tsinat08/Movie" target='_blank' rel="noopener noreferrer"><i className="fa fa-github"/></a>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+
+                {/*    <div className="col-md-4 col-sm-6 col-xs-12 grid-item tech develop">*/}
+                {/*        <div className="portfolio hover-style">*/}
+                {/*            <img src={require('../../image/jamming.jpg')} alt=""/>*/}
+                {/*            <div className="item-img-overlay">*/}
+                {/*                <div className="overlay-info text-center">*/}
+                {/*                    <h6 className="sm-titl">React/Express/Node/AWS</h6>*/}
+                {/*                    <div className="icons">*/}
+                {/*                        <a href="http://jamming.tsinatcodes.com" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>*/}
+                {/*                        <a href="https://github.com/tsinat08/jammming" target='_blank' rel="noopener noreferrer"><i className="fa fa-github"/></a>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+
+                {/*    <div className="col-md-4 col-sm-6 col-xs-12 grid-item market web develop">*/}
+                {/*        <div className="portfolio hover-style">*/}
+                {/*        <img src={require('../../image/food.jpg')} alt=""/>*/}
+                {/*            <div className="item-img-overlay">*/}
+                {/*                <div className="overlay-info text-center">*/}
+                {/*                    <h6 className="sm-titl">React/Express/Node/AWS</h6>*/}
+                {/*                    <div className="icons">*/}
+                {/*                        <a href="http://restaurant.tsinatcodes.com" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>*/}
+                {/*                        <a href="https://github.com/tsinat08/Restaurant" target='_blank' rel="noopener noreferrer"><i className="fa fa-github"/></a>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+
+
+                {/*    <div className="col-md-4 col-sm-6 col-xs-12 grid-item web">*/}
+                {/*        <div className="portfolio hover-style">*/}
+                {/*            <img src={require('../../image/calculator.png')} alt=""/>*/}
+                {/*            <div className="item-img-overlay">*/}
+                {/*                <div className="overlay-info text-center">*/}
+                {/*                    <h6 className="sm-titl">React/Express/Node/AWS</h6>*/}
+                {/*                    <div className="icons">*/}
+                {/*                        <a href="http://calculator.tsinatcodes.com" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>*/}
+                {/*                        <a href="https://github.com/tsinat08/calculator" target='_blank' rel="noopener noreferrer"><i className="fa fa-github"/></a>*/}
+                {/*                    </div>*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+
+                    {/*<div className="col-md-4 col-sm-6 col-xs-12 grid-item develop">*/}
+                    {/*    <div className="portfolio hover-style">*/}
+                    {/*        <img src={require('../../image/profile.png')} alt=""/>*/}
+                    {/*        <div className="item-img-overlay">*/}
+                    {/*            <div className="overlay-info text-center">*/}
+                    {/*                <h6 className="sm-titl">WEB DESIGN</h6>*/}
+                    {/*                <div className="icons">*/}
+                    {/*                    <a href=".#"><i className="icon-magnifying-glass"></i></a>*/}
+                    {/*                </div>*/}
+                    {/*            </div>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                 {/*</div>*/}
-            </div>
+                {/*****************************************************
+                 Gallery Test
+                **********************************************************/}
+
+                <div className="snapstack">
+                    <div className="snap snap--6">
+                        <div className="portfolio hover-style">
+                            <img src={require('../../image/PaintedRed.png')} alt=""/>
+                            <div className="item-img-overlay">
+                                <div className="overlay-info text-center">
+                                    <h6 className="sm-titl">NextJs/Woocommerce/Node <br/> AWS/GraphQl/Stripe</h6>
+                                    <div className="icons">
+                                        <a href="https://www.getpaintedred.com/" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span className="snap__caption">Painted Red</span>
+                    </div>
+
+                    <div className="snap snap--5">
+                        <div className="portfolio hover-style">
+                            <img src={require('../../image/eristars2.png')} alt=""/>
+                            <div className="item-img-overlay">
+                                <div className="overlay-info text-center">
+                                    <h6 className="sm-titl">WordPress/PHP/Js</h6>
+                                    <div className="icons">
+                                        <a href="https://www.eristarsportsclub.com/" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span className="snap__caption">Eristars</span>
+                    </div>
+
+                    <div className="snap snap--4">
+                        <div className="portfolio hover-style">
+                            <img src={require('../../image/movies.jpg')} alt=""/>
+                            <div className="item-img-overlay">
+                                <div className="overlay-info text-center">
+                                    <h6 className="sm-titl">React/Express/Node/AWS</h6>
+                                    <div className="icons">
+                                        <a href="http://movies.tsinatcodes.com" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
+                                        <a href="https://github.com/tsinat08/Movie" target='_blank' rel="noopener noreferrer"><i className="fa fa-github"/></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span className="snap__caption">Movie Finder</span>
+                    </div>
+
+                    <div className="snap snap--3">
+                        <div className="portfolio hover-style">
+                            <img src={require('../../image/jamming.jpg')} alt=""/>
+                            <div className="item-img-overlay">
+                                <div className="overlay-info text-center">
+                                    <h6 className="sm-titl">React/Express/Node/AWS</h6>
+                                    <div className="icons">
+                                        <a href="http://jamming.tsinatcodes.com" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
+                                        <a href="https://github.com/tsinat08/jammming" target='_blank' rel="noopener noreferrer"><i className="fa fa-github"/></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span className="snap__caption">Music Finder</span>
+                    </div>
+
+                    <div className="snap snap--2">
+                        <div className="portfolio hover-style">
+                            <img src={require('../../image/food.jpg')} alt=""/>
+                            <div className="item-img-overlay">
+                                <div className="overlay-info text-center">
+                                    <h6 className="sm-titl">React/Express/Node/AWS</h6>
+                                    <div className="icons">
+                                        <a href="http://restaurant.tsinatcodes.com" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
+                                        <a href="https://github.com/tsinat08/Restaurant" target='_blank' rel="noopener noreferrer"><i className="fa fa-github"/></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span className="snap__caption">Restaurant Finder</span>
+                    </div>
+
+                    <div className="snap snap--1">
+                        <div className="portfolio hover-style">
+                            <img src={require('../../image/calculator.png')} alt=""/>
+                            <div className="item-img-overlay">
+                                <div className="overlay-info text-center">
+                                    <h6 className="sm-titl">React/Express/Node/AWS</h6>
+                                    <div className="icons">
+                                        <a href="http://calculator.tsinatcodes.com" target='_blank' rel="noopener noreferrer"><i className="icon-magnifying-glass"/></a>
+                                        <a href="https://github.com/tsinat08/calculator" target='_blank' rel="noopener noreferrer"><i className="fa fa-github"/></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span className="snap__caption">Calculator</span>
+                    </div>
+                </div>
             </div>
         )
     }

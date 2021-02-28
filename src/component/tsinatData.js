@@ -17,7 +17,7 @@ const tsinatData = {
         }
       ],
       "aboutme": "About Me",
-      "aboutdetails": "I am Tsinat Weldetnesae. A talented front-end developer offering a strong foundation in software engineering and programming principles across multiple platforms with forward-thinking problem identification, research, analysis, and resolution. Expert in object-oriented programming; developing, testing and debugging code; and designing interfaces. Consistently deliver strong and sustainable technology gains as well as the ability to integrate out-of-the-box thinking and problem-solving analysis to improve processes, systems, and methodologies.",
+      "aboutdetails": "I am Tsinat Weldetnesae. A talented developer offering a strong foundation in software engineering and programming principles across multiple platforms with forward-thinking problem identification, research, analysis, and resolution. Expert in object-oriented programming; developing, testing and debugging code; and designing interfaces. Consistently deliver strong and sustainable technology gains as well as the ability to integrate out-of-the-box thinking and problem-solving analysis to improve processes, systems, and methodologies.",
       "service":[
           {
             "id" : 1,
