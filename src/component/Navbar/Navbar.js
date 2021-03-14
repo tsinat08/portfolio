@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Sticky from 'react-stickynode';
 import {Link} from 'react-scroll';
 import bg from '../../image/kc.png';
-import bgReverse from '../../image/kc-reverse.png';
+import bgReverse from '../../image/kc-reverse-blue.png';
 
 class Navbar extends Component{
     render(){
@@ -32,11 +32,11 @@ class Navbar extends Component{
                         <div className="collapse navbar-collapse offset" id="navbarSupportedContent">
                             <ul className="nav navbar-nav m-auto">
                                 <li className="nav-item">
-                                    <Link className="nav-link" activeClass="active" to="home" spy={true} smooth={true} offset={0} duration={500}>.home()</Link>
+                                    <Link className="nav-link" activeClass="active" to="home" spy={true} smooth={true} offset={0} duration={500}>Home</Link>
                                 </li>
                                 <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="about" spy={true} smooth={true} offset={-86} duration={500}>
-                                        .about()
+                                        About
                                     </Link>
                                 </li>
                                 {/*<li className="nav-item">*/}
@@ -46,7 +46,7 @@ class Navbar extends Component{
                                 {/*</li>*/}
                                 <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="portfolio" spy={true} smooth={true} offset={-86} duration={500}>
-                                        .portfolio()
+                                        Portfolio
                                     </Link>
                                 </li>
                                 {/*<li className="nav-item">*/}
@@ -56,7 +56,7 @@ class Navbar extends Component{
                                 {/*</li>*/}
                                 <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="contact" spy={true} smooth={true} offset={-86} duration={500}>
-                                        .contact()
+                                        Contact
                                     </Link>
                                 </li>
                             </ul>

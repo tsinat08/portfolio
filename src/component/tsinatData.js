@@ -108,9 +108,8 @@ const tsinatData = {
           },
           {
               "id" : 18,
-              "iconName": "placeholder.png",
-              "serviceTitle": "",
-              "className": "placeholder"
+              "iconName": "php.png",
+              "serviceTitle": "PHP"
           }
       ],
       "contact":[
