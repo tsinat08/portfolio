@@ -67,17 +67,17 @@ class ItemGrid extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-6 col-xs-12 grid-item market web develop">
+                    <div className="col-md-3 col-sm-6 col-xs-12 grid-item market web">
                         <div className="portfolio hover-style">
-                            <img src={require('../../image/jamming.png')} alt=""/>
+                            <img src={require('../../image/restaurant.png')} alt=""/>
                             <div className="item-img-overlay">
                                 <div className="overlay-info text-center">
                                     <h6 className="sm-titl">React/Express/Node/AWS</h6>
                                     <div className="icons">
-                                        <a href="http://jamming.tsinatcodes.com" target='_blank' rel="noopener noreferrer">
+                                        <a href="http://restaurant.tsinatcodes.com" target='_blank' rel="noopener noreferrer">
                                             <i className="icon-magnifying-glass"/>
                                         </a>
-                                        <a href="https://github.com/tsinat08/jammming" target='_blank' rel="noopener noreferrer">
+                                        <a href="https://github.com/tsinat08/Restaurant" target='_blank' rel="noopener noreferrer">
                                             <i className="fa fa-github"/>
                                         </a>
                                     </div>
@@ -117,17 +117,17 @@ class ItemGrid extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-6 col-xs-12 grid-item market web">
+                    <div className="col-md-3 col-sm-6 col-xs-12 grid-item market web develop">
                         <div className="portfolio hover-style">
-                            <img src={require('../../image/restaurant.png')} alt=""/>
+                            <img src={require('../../image/jamming.png')} alt=""/>
                             <div className="item-img-overlay">
                                 <div className="overlay-info text-center">
                                     <h6 className="sm-titl">React/Express/Node/AWS</h6>
                                     <div className="icons">
-                                        <a href="http://restaurant.tsinatcodes.com" target='_blank' rel="noopener noreferrer">
+                                        <a href="http://jamming.tsinatcodes.com" target='_blank' rel="noopener noreferrer">
                                             <i className="icon-magnifying-glass"/>
                                         </a>
-                                        <a href="https://github.com/tsinat08/Restaurant" target='_blank' rel="noopener noreferrer">
+                                        <a href="https://github.com/tsinat08/jammming" target='_blank' rel="noopener noreferrer">
                                             <i className="fa fa-github"/>
                                         </a>
                                     </div>
