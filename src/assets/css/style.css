@@ -1658,7 +1658,7 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 .banner_shap{
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+  /*clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);*/
 }
 .banner_shap_two:before{
   background: url(../../image/shap1.png) no-repeat scroll center bottom;

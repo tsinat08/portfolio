@@ -51,15 +51,15 @@ class ItemGrid extends Component {
                 <div className="grid row">
                     <div className="col-md-3 col-sm-6 col-xs-12 grid-item tech develop">
                         <div className="portfolio hover-style">
-                            <img src={require('../../image/movies.png')} alt=""/>
+                            <img src={require('../../image/jamming.png')} alt=""/>
                             <div className="item-img-overlay">
                                 <div className="overlay-info text-center">
-                                    <h6 className="sm-titl">React/Express/Node/AWS</h6>
+                                    <h6 className="sm-titl">NextJs/Serverless/AWS Lambda@Edge</h6>
                                     <div className="icons">
-                                        <a href="http://movies.tsinatcodes.com" target='_blank' rel="noopener noreferrer">
+                                        <a href="http://jamming.tsinatcodes.com" target='_blank' rel="noopener noreferrer">
                                             <i className="icon-magnifying-glass"/>
                                         </a>
-                                        <a href="https://github.com/tsinat08/Movie" target='_blank' rel="noopener noreferrer">
+                                        <a href="https://github.com/tsinat08/jammming" target='_blank' rel="noopener noreferrer">
                                             <i className="fa fa-github"/>
                                         </a>
                                     </div>
@@ -72,7 +72,7 @@ class ItemGrid extends Component {
                             <img src={require('../../image/restaurant.png')} alt=""/>
                             <div className="item-img-overlay">
                                 <div className="overlay-info text-center">
-                                    <h6 className="sm-titl">React/Express/Node/AWS</h6>
+                                    <h6 className="sm-titl">NextJs/Serverless/AWS Lambda@Edge</h6>
                                     <div className="icons">
                                         <a href="http://restaurant.tsinatcodes.com" target='_blank' rel="noopener noreferrer">
                                             <i className="icon-magnifying-glass"/>
@@ -119,15 +119,15 @@ class ItemGrid extends Component {
                     </div>
                     <div className="col-md-3 col-sm-6 col-xs-12 grid-item market web develop">
                         <div className="portfolio hover-style">
-                            <img src={require('../../image/jamming.png')} alt=""/>
+                            <img src={require('../../image/movies.png')} alt=""/>
                             <div className="item-img-overlay">
                                 <div className="overlay-info text-center">
                                     <h6 className="sm-titl">React/Express/Node/AWS</h6>
                                     <div className="icons">
-                                        <a href="http://jamming.tsinatcodes.com" target='_blank' rel="noopener noreferrer">
+                                        <a href="http://movies.tsinatcodes.com" target='_blank' rel="noopener noreferrer">
                                             <i className="icon-magnifying-glass"/>
                                         </a>
-                                        <a href="https://github.com/tsinat08/jammming" target='_blank' rel="noopener noreferrer">
+                                        <a href="https://github.com/tsinat08/Movie" target='_blank' rel="noopener noreferrer">
                                             <i className="fa fa-github"/>
                                         </a>
                                     </div>
