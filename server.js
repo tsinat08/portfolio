@@ -13,7 +13,7 @@ const forceHttps = (req, res, next) => {
         //----------------------------
         // Redirect to https://
         //----------------------------
-        return res.redirect(301, `https://www.${req.get('host')}` + req.url);
+        return res.redirect(301, `https://${req.get('host')}` + req.url);
     }
     next();
 }
