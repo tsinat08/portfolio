@@ -155,7 +155,7 @@ class ItemGrid extends Component {
                                 <div className="overlay-info text-center">
                                     <h6 className="sm-titl">React/Express/Node/AWS</h6>
                                     <div className="icons">
-                                        <a href="http://movies.tsinatcodes.com" target='_blank' rel="noopener noreferrer">
+                                        <a href="http://movie.tsinatcodes.com" target='_blank' rel="noopener noreferrer">
                                             <i className="icon-magnifying-glass"/>
                                         </a>
                                         <a href="https://github.com/tsinat08/Movie" target='_blank' rel="noopener noreferrer">
